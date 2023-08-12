@@ -1,0 +1,20 @@
+.sidebar {
+	height: 100px;
+	width: 90%;
+	border: 1px solid gray;
+	border-radius: 8px;
+	p {
+		padding: 0 10px;
+		display: inline-flex;
+		flex-wrap: wrap;
+		font-size: 15px;
+		font-family: PT serif;
+		span {
+			margin: 2px;
+			padding: 2px 8px;
+			border: 1px solid silver;
+			border-radius: 40px;
+			justify-self: start;
+		}
+	}
+}

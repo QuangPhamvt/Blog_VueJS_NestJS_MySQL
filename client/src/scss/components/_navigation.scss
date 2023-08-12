@@ -1,0 +1,39 @@
+nav {
+	height: 100%;
+	align-content: center;
+	div {
+		display: flex;
+		flex-direction: row;
+	}
+}
+.nav {
+	&__logo {
+		height: 64px;
+		width: 64px;
+	}
+	&__follow {
+		display: flex;
+		align-items: center;
+		padding: 0 20px;
+		&--title {
+			border-left: 2px solid gray;
+			padding: 0 20px;
+			font-weight: 300;
+			color: gray;
+		}
+		&--icon {
+			display: block;
+			padding: 0 6px;
+		}
+	}
+	&__link {
+		display: flex;
+		width: 100%;
+		justify-content: end;
+		align-items: center;
+		&--items {
+			padding: 0 20px;
+			font-weight: 900;
+		}
+	}
+}

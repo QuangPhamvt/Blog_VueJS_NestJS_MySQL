@@ -1,0 +1,38 @@
+.card {
+	&__container {
+		width: 90%;
+		height: 160px;
+
+		margin-bottom: 48px;
+		padding: 10px;
+		border: 1px solid gray;
+		border-radius: 8px;
+		h2 {
+			font-family: PT Serif;
+			font-size: 18px;
+		}
+		img {
+			background-color: #faf3f0;
+			border-radius: 6px;
+			object-fit: contain;
+		}
+		p {
+			display: inline-flex;
+			flex-wrap: wrap;
+			font-size: 15px;
+			font-family: PT serif;
+			span {
+				margin: 0 2px;
+				padding: 2px 8px;
+				border: 1px solid silver;
+				border-radius: 40px;
+				justify-self: start;
+			}
+		}
+		h5 {
+			margin: 10px 0;
+			font-weight: 200;
+			color: hsl(0, 4%, 11%);
+		}
+	}
+}

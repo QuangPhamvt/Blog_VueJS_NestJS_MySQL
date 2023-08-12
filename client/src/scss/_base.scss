@@ -1,0 +1,30 @@
+body {
+	display: block;
+	position: relative;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+a {
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+a,
+li {
+	// list-style-type: none;
+	text-decoration: none black;
+	color: black;
+	font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+		"Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+//Input
+input {
+	&:focus {
+		outline: none;
+	}
+}

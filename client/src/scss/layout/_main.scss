@@ -1,0 +1,30 @@
+.main {
+	margin-top: 150px;
+	&__header {
+		height: 500px;
+		width: 100%;
+
+		border-radius: 20px;
+
+		background-color: antiquewhite;
+
+		&--content {
+			display: flex;
+			flex-direction: column;
+			align-items: start;
+
+			margin: 120px 40px;
+		}
+
+		&--img {
+			margin: 20px 0 20px 120px;
+			border-radius: 10px;
+		}
+	}
+	&__content {
+		margin-top: 20px;
+		&--post {
+			justify-items: center;
+		}
+	}
+}
